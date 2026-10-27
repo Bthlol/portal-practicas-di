@@ -93,6 +93,15 @@
     font-size: 0.9rem;
   }
 
+  &__postulado {
+    margin: 0 0 $espacio;
+    padding: $espacio * 1.5;
+    border-radius: $radio;
+    background: lighten($color-exito, 58%);
+    color: $color-exito;
+    font-weight: 600;
+  }
+
   &__nota {
     margin: $espacio 0;
     color: $color-texto-suave;

@@ -7,6 +7,7 @@ import { Link, useParams } from 'react-router-dom'
 import ofertas from '../data/ofertas.json'
 import empresas from '../data/empresas.json'
 import ResumenResenas from '../components/resumen_resenas'
+import { usePostulaciones } from '../state/postulaciones'
 import {
   formatCLP,
   formatFecha,
@@ -38,6 +39,20 @@ const ListaSeccion = ({ titulo, items }) => {
 
 // Panel con la acción principal. Cambia según el estado de la oferta.
 const AccionPostular = ({ oferta }) => {
+  const { obtener } = usePostulaciones()
+  const previa = obtener(oferta.id)
+
+  if (previa) {
+    return (
+      <div className='oferta-detalle__accion'>
+        <p className='oferta-detalle__postulado'>
+          ✓ Ya postulaste el {formatFecha(previa.fecha)}
+        </p>
+        <Link className='boton boton--bloque' to='/postulaciones'>Ver mis postulaciones</Link>
+      </div>
+    )
+  }
+
   if (estaCerrada(oferta.fechaCierre)) {
     return (
       <div className='oferta-detalle__accion'>

@@ -42,3 +42,10 @@ export const textoCierre = (iso) => {
   if (dias === 1) return 'Cierra mañana'
   return `Cierra en ${dias} días`
 }
+
+// Para resúmenes de una línea, donde «No informada» sola sería ambigua.
+// 400000 -> "$400.000 mensuales". null -> "Remuneración no informada".
+export const textoRemuneracion = (monto) => {
+  if (monto === null || monto === undefined) return 'Remuneración no informada'
+  return `${formatCLP(monto)} mensuales`
+}

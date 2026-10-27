@@ -24,6 +24,22 @@
     &:hover { background: darken($color-primario, 8%); }
   }
 
+  // Acción destructiva (retirar, eliminar).
+  &--peligro {
+    border-color: $color-error;
+    background: $color-error;
+    color: white;
+    &:hover { background: darken($color-error, 8%); }
+  }
+
+  // Acción secundaria con apariencia de enlace.
+  &--texto {
+    border-color: transparent;
+    background: transparent;
+    text-decoration: underline;
+    &:hover { background: transparent; color: darken($color-primario, 10%); }
+  }
+
   &:disabled,
   &--deshabilitado {
     border-color: $color-borde;

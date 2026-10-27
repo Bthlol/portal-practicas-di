@@ -1,6 +1,79 @@
 // Dueño: Benjamín.
 .postulaciones {
   padding: $espacio * 3;
+  border: 1px solid $color-borde;
   border-radius: $radio;
   background: $color-superficie;
+
+  h1 {
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  &__resumen {
+    color: $color-texto-suave;
+  }
+
+  &__aviso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $espacio $espacio * 2;
+    border-radius: $radio;
+    background: $color-primario-claro;
+  }
+
+  &__lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: $espacio $espacio * 2;
+    align-items: center;
+    padding: $espacio * 2 0;
+    border-top: 1px solid $color-borde;
+
+    p { margin: 0; }
+  }
+
+  &__empresa {
+    color: $color-texto-suave;
+    font-size: 0.85rem;
+  }
+
+  &__titulo {
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+
+  &__datos {
+    margin-top: $espacio * 0.5 !important;
+    color: $color-texto-suave;
+    font-size: 0.9rem;
+  }
+
+  &__estado {
+    padding: 2px $espacio * 1.5;
+    border-radius: 999px;
+    background: lighten($color-exito, 55%);
+    color: $color-exito;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  &__acciones {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1 / -1;
+    align-items: center;
+    gap: $espacio;
+  }
+
+  &__pregunta {
+    font-weight: 600;
+  }
 }

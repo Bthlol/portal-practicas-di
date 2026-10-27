@@ -36,11 +36,18 @@ export const PostulacionesProvider = ({ children }) => {
 
   const yaPostulo = (ofertaId) => postulaciones.some((p) => p.ofertaId === ofertaId)
 
+  const obtener = (ofertaId) => postulaciones.find((p) => p.ofertaId === ofertaId)
+
+  // Control y libertad del usuario: puede deshacer una postulación.
+  const retirar = (ofertaId) => {
+    setPostulaciones((actuales) => actuales.filter((p) => p.ofertaId !== ofertaId))
+  }
+
   // Útil para reiniciar entre sesiones de testing.
   const reiniciar = () => setPostulaciones([])
 
   return (
-    <PostulacionesContext.Provider value={{ postulaciones, postular, yaPostulo, reiniciar }}>
+    <PostulacionesContext.Provider value={{ postulaciones, postular, yaPostulo, obtener, retirar, reiniciar }}>
       {children}
     </PostulacionesContext.Provider>
   )

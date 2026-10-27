@@ -8,7 +8,7 @@ import { Link, useParams } from 'react-router-dom'
 import ofertas from '../data/ofertas.json'
 import empresas from '../data/empresas.json'
 import { usePostulaciones } from '../state/postulaciones'
-import { formatCLP, formatFecha, estaCerrada, textoCierre } from '../utils/format'
+import { formatFecha, estaCerrada, textoCierre, textoRemuneracion } from '../utils/format'
 
 const MIN_CARACTERES = 50
 const MAX_CARACTERES = 800
@@ -32,7 +32,7 @@ const ResumenOferta = ({ oferta, empresa }) => (
     <p className='postular__empresa'>{empresa ? empresa.nombre : ''}</p>
     <p className='postular__oferta-titulo'>{oferta.titulo}</p>
     <p className='postular__oferta-datos'>
-      {formatCLP(oferta.remuneracion)} · {oferta.modalidad} · {textoCierre(oferta.fechaCierre)}
+      {textoRemuneracion(oferta.remuneracion)} · {oferta.modalidad} · {textoCierre(oferta.fechaCierre)}
     </p>
   </div>
 )
