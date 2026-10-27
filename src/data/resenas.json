@@ -1,0 +1,22 @@
+[
+  {
+    "id": "res-01",
+    "empresaId": "emp-01",
+    "autor": "Alumno/a de 5° año",
+    "periodo": "Verano 2026",
+    "area": "Backend",
+    "calificacion": 4,
+    "coincidioConOferta": true,
+    "texto": "Las tareas fueron las que decía la oferta. El equipo tenía tiempo para resolver dudas."
+  },
+  {
+    "id": "res-02",
+    "empresaId": "emp-01",
+    "autor": "Alumno/a de 4° año",
+    "periodo": "Invierno 2025",
+    "area": "Desarrollo web",
+    "calificacion": 3,
+    "coincidioConOferta": false,
+    "texto": "La oferta decía desarrollo, pero las primeras semanas fueron de migración de planillas."
+  }
+]

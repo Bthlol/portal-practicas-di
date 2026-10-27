@@ -1,0 +1,13 @@
+// Dueño: Manuel. Incluye estilos de .resenas y .resumen-resenas.
+.resenas {
+  padding: $espacio * 3;
+  border-radius: $radio;
+  background: $color-superficie;
+}
+
+.resumen-resenas {
+  margin: $espacio * 3 0;
+  padding: $espacio * 2;
+  border: 1px solid $color-borde;
+  border-radius: $radio;
+}

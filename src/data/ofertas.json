@@ -1,0 +1,40 @@
+[
+  {
+    "id": "of-01",
+    "empresaId": "emp-01",
+    "titulo": "Práctica en desarrollo backend",
+    "tipoPractica": "Industrial",
+    "areas": ["Desarrollo web", "Backend"],
+    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "modalidad": "Híbrido",
+    "ubicacion": "Viña del Mar",
+    "remuneracion": 400000,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 8,
+    "fechaPublicacion": "2026-10-10",
+    "fechaCierre": "2026-11-15",
+    "descripcion": "Apoyo al equipo de plataforma en el desarrollo de servicios internos para la gestión de pedidos.",
+    "tareas": ["Desarrollar endpoints REST", "Escribir pruebas unitarias", "Participar en revisiones de código"],
+    "requisitos": ["Conocimientos de Python", "Manejo básico de bases de datos relacionales"],
+    "contacto": "practicas@empresa-ejemplo.cl"
+  },
+  {
+    "id": "of-02",
+    "empresaId": "emp-02",
+    "titulo": "Práctica en ciberseguridad",
+    "tipoPractica": "Profesional",
+    "areas": ["Ciberseguridad"],
+    "tecnologias": ["Linux", "Wireshark", "Python"],
+    "modalidad": "Presencial",
+    "ubicacion": "Santiago",
+    "remuneracion": null,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 12,
+    "fechaPublicacion": "2026-10-20",
+    "fechaCierre": "2026-10-30",
+    "descripcion": "Apoyo al equipo de seguridad en el monitoreo de incidentes y la revisión de configuraciones.",
+    "tareas": ["Revisar alertas del SOC", "Documentar incidentes", "Apoyar auditorías de configuración"],
+    "requisitos": ["Haber cursado Redes de Computadores"],
+    "contacto": "seguridad@empresa-ejemplo.cl"
+  }
+]

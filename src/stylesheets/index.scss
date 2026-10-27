@@ -1,0 +1,23 @@
+// Dueño: Benjamín. Todos los @import quedan registrados desde el Commit 0.
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@import './base/index.scss';
+@import './layout/index.scss';
+@import './nav-bar/index.scss';
+@import './ofertas-page/index.scss';
+@import './oferta-detalle/index.scss';
+@import './postular/index.scss';
+@import './postulaciones/index.scss';
+@import './resenas/index.scss';
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a { color: $color-primario; }

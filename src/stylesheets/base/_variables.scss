@@ -1,0 +1,16 @@
+// Dueño: Benjamín. Colores y medidas compartidos: úsenlos en vez de valores sueltos
+// para que todas las pantallas se vean consistentes.
+$color-primario: #00477f;      // azul institucional
+$color-primario-claro: #e6eef6;
+$color-texto: #1f2933;
+$color-texto-suave: #5f6b7a;
+$color-borde: #d5dbe3;
+$color-fondo: #f5f7fa;
+$color-superficie: #ffffff;
+$color-exito: #1e7b4a;
+$color-alerta: #b45309;        // cierra pronto, remuneración no informada
+$color-error: #b42318;
+
+$radio: 8px;
+$espacio: 8px;                 // múltiplos: $espacio * 2, $espacio * 3...
+$ancho-contenido: 1100px;

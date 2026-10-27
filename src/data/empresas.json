@@ -1,0 +1,4 @@
+[
+  { "id": "emp-01", "nombre": "Empresa de Ejemplo SpA", "rubro": "Retail", "ciudad": "Viña del Mar" },
+  { "id": "emp-02", "nombre": "Seguridad Ejemplo Ltda.", "rubro": "Servicios TI", "ciudad": "Santiago" }
+]

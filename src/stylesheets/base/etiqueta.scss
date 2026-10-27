@@ -1,0 +1,15 @@
+// Etiquetas de área, tecnología, modalidad, etc.
+.etiqueta {
+  display: inline-block;
+  margin: 0 $espacio * 0.5 $espacio * 0.5 0;
+  padding: 2px $espacio;
+  border-radius: 999px;
+  background: $color-primario-claro;
+  color: $color-primario;
+  font-size: 0.85rem;
+
+  &--alerta {
+    background: lighten($color-alerta, 52%);
+    color: $color-alerta;
+  }
+}

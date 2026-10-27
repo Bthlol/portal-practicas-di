@@ -1,0 +1,27 @@
+.boton {
+  display: inline-block;
+  padding: $espacio $espacio * 2;
+  border: 1px solid $color-primario;
+  border-radius: $radio;
+  background: $color-superficie;
+  color: $color-primario;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover { background: $color-primario-claro; }
+
+  &--primario {
+    background: $color-primario;
+    color: white;
+    &:hover { background: darken($color-primario, 8%); }
+  }
+
+  &:disabled,
+  &--deshabilitado {
+    border-color: $color-borde;
+    background: $color-fondo;
+    color: $color-texto-suave;
+    cursor: not-allowed;
+  }
+}

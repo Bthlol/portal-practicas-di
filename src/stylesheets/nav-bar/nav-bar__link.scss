@@ -1,0 +1,26 @@
+.nav-bar__link {
+  display: inline-flex;
+  align-items: center;
+  gap: $espacio;
+  padding: $espacio $espacio * 2;
+  border-radius: $radio;
+  color: white;
+  text-decoration: none;
+
+  &:hover { background: rgba(255, 255, 255, 0.12); }
+
+  &--active {
+    background: white;
+    color: $color-primario;
+  }
+}
+
+.nav-bar__contador {
+  min-width: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: $color-alerta;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
