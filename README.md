@@ -6,13 +6,15 @@ JSON locales (`src/data/`) y las postulaciones se guardan en el navegador.
 
 Basado en [alexarenasf/frontend-sample-app](https://github.com/alexarenasf/frontend-sample-app).
 
-## Metas de usuario implementadas
+## Metas de usuario
 
-| Meta | Pantallas |
-| --- | --- |
-| M1. Encontrar prácticas de su área de interés | `/ofertas` (listado con filtros) |
-| M2. Decidir si una oferta le conviene antes de postular | `/ofertas/:id`, `/ofertas/:id/postular`, `/postulaciones` |
-| M3. Saber cómo les fue a compañeros en esa empresa | Resumen en `/ofertas/:id`, `/empresas/:id/resenas` |
+| Meta | Hipótesis | Pantallas | Dueño | Estado |
+| --- | --- | --- | --- | --- |
+| M1. Encontrar prácticas de su área de interés | H4 | `/ofertas` | Seba | En desarrollo |
+| M2. Decidir si una oferta le conviene antes de postular | H2 | `/ofertas/:id`, `/ofertas/:id/postular`, `/postulaciones` | Benjamín | Implementada |
+| M3. Saber cómo les fue a compañeros en esa empresa | H1 | Resumen en `/ofertas/:id`, `/empresas/:id/resenas` | Manuel | En desarrollo |
+
+Los pasos de cada meta están en [docs/flujos.md](docs/flujos.md).
 
 ## Cómo correrlo
 
@@ -25,6 +27,15 @@ npm run dev
 
 Abrir http://localhost:5050
 
+## Documentación
+
+| Documento | Para qué |
+| --- | --- |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Dueños de cada archivo, recursos compartidos y reglas de Git |
+| [docs/datos.md](docs/datos.md) | Formato de los JSON, casos borde obligatorios y anonimización |
+| [docs/flujos.md](docs/flujos.md) | Mapa de navegación y pasos de cada meta |
+| [docs/prueba.md](docs/prueba.md) | Guion de verificación antes de entregar |
+
 ## Estructura
 
 ```
@@ -35,7 +46,8 @@ src/
   state/        contexto de postulaciones (localStorage)
   utils/        formato de montos y fechas
   stylesheets/  SCSS con BEM; base/ tiene variables, botones y etiquetas compartidos
+docs/           datos, flujos y guion de prueba
 ```
 
-Para fijar la fecha usada en "Cierra en N días" durante el testing, editar
+Para fijar la fecha usada en «Cierra en N días» durante el testing, editar
 `FECHA_REFERENCIA` en `src/utils/format.js`.
