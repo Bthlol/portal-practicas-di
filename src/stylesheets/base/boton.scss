@@ -11,6 +11,13 @@
 
   &:hover { background: $color-primario-claro; }
 
+  // Ocupa todo el ancho del contenedor.
+  &--bloque {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
   &--primario {
     background: $color-primario;
     color: white;

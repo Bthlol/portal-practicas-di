@@ -1,6 +1,126 @@
 // Dueño: Benjamín.
 .oferta-detalle {
-  padding: $espacio * 3;
-  border-radius: $radio;
-  background: $color-superficie;
+  &__migas {
+    margin-bottom: $espacio * 2;
+    color: $color-texto-suave;
+    font-size: 0.9rem;
+  }
+
+  &__grilla {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: $espacio * 3;
+    align-items: start;
+  }
+
+  &__principal,
+  &__panel {
+    padding: $espacio * 3;
+    border: 1px solid $color-borde;
+    border-radius: $radio;
+    background: $color-superficie;
+  }
+
+  // El panel acompaña al usuario mientras lee la oferta.
+  &__panel {
+    position: sticky;
+    top: $espacio * 2;
+  }
+
+  &__empresa {
+    margin: 0;
+    color: $color-texto-suave;
+    font-weight: 600;
+  }
+
+  &__titulo {
+    margin: $espacio 0 $espacio * 1.5;
+    font-size: 1.8rem;
+  }
+
+  &__seccion {
+    margin-top: $espacio * 3;
+  }
+
+  &__subtitulo {
+    margin: 0 0 $espacio;
+    font-size: 1.1rem;
+  }
+
+  &__lista {
+    margin: 0;
+    padding-left: $espacio * 2.5;
+    line-height: 1.6;
+  }
+
+  &__monto {
+    padding-bottom: $espacio * 2;
+    border-bottom: 1px solid $color-borde;
+  }
+
+  &__monto-valor {
+    margin: $espacio * 0.5 0 0;
+    color: $color-exito;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__aviso {
+    margin: $espacio 0 0;
+    padding: $espacio * 1.5;
+    border-left: 4px solid $color-alerta;
+    border-radius: $radio * 0.5;
+    background: lighten($color-alerta, 52%);
+    color: darken($color-alerta, 10%);
+    font-size: 0.9rem;
+  }
+
+  &__cierre {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: $espacio * 2 0;
+    font-size: 0.9rem;
+
+    strong { font-size: 1rem; }
+
+    &--pronto strong { color: $color-alerta; }
+    &--cerrada strong { color: $color-error; }
+  }
+
+  &__accion {
+    margin-bottom: $espacio * 2;
+    font-size: 0.9rem;
+  }
+
+  &__nota {
+    margin: $espacio 0;
+    color: $color-texto-suave;
+  }
+
+  &__datos {
+    margin: 0;
+    padding-top: $espacio * 2;
+    border-top: 1px solid $color-borde;
+  }
+
+  &__dato {
+    display: flex;
+    justify-content: space-between;
+    gap: $espacio * 2;
+    padding: $espacio * 0.75 0;
+    font-size: 0.9rem;
+  }
+
+  &__dato-etiqueta {
+    margin: 0;
+    color: $color-texto-suave;
+    font-size: 0.85rem;
+  }
+
+  &__dato-valor {
+    margin: 0;
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
 }
