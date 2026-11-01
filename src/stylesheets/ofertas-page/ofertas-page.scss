@@ -16,6 +16,73 @@
   text-decoration: none;
 
   &:hover { border-color: $color-primario; }
+
+  &:focus-visible {
+    outline: 2px solid $color-primario;
+    outline-offset: 2px;
+  }
+
+  // Sigue visible para que el alumno sepa que existió, pero en segundo plano.
+  &--cerrada { opacity: 0.7; }
+
+  &__encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: $espacio * 2;
+    margin-bottom: $espacio;
+  }
+
+  &__empresa {
+    margin: 0 0 $espacio * 0.5;
+    color: $color-texto-suave;
+    font-size: 0.9rem;
+  }
+
+  &__titulo {
+    margin: 0;
+    color: $color-primario;
+    font-size: 1.15rem;
+  }
+
+  &__cierre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-shrink: 0;
+    margin: 0;
+    color: $color-texto-suave;
+    font-size: 0.85rem;
+    text-align: right;
+
+    strong { color: $color-texto; }
+
+    &--pronto strong { color: $color-alerta; }
+    &--cerrada strong { color: $color-error; }
+  }
+
+  &__areas { margin-bottom: $espacio * 0.5; }
+
+  &__tecnologias {
+    margin: 0 0 $espacio;
+    color: $color-texto;
+    font-size: 0.9rem;
+  }
+
+  &__mas { color: $color-texto-suave; }
+
+  &__datos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $espacio * 0.5 $espacio * 2;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: $color-texto-suave;
+    font-size: 0.9rem;
+  }
+
+  &__sin-monto { color: $color-alerta; }
 }
 
 .filtros {
