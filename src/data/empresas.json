@@ -1,4 +1,10 @@
 [
-  { "id": "emp-01", "nombre": "Empresa de Ejemplo SpA", "rubro": "Retail", "ciudad": "Viña del Mar" },
-  { "id": "emp-02", "nombre": "Seguridad Ejemplo Ltda.", "rubro": "Servicios TI", "ciudad": "Santiago" }
+  { "id": "emp-01", "nombre": "Lumen Retail Digital SpA", "rubro": "Retail", "ciudad": "Viña del Mar" },
+  { "id": "emp-02", "nombre": "Escudo TI Ltda.", "rubro": "Servicios TI", "ciudad": "Santiago" },
+  { "id": "emp-03", "nombre": "Andes Analítica SpA", "rubro": "Consultoría de datos", "ciudad": "Santiago" },
+  { "id": "emp-04", "nombre": "Puerto Logística Integrada S.A.", "rubro": "Logística", "ciudad": "Santiago" },
+  { "id": "emp-05", "nombre": "Red Costera Telecomunicaciones", "rubro": "Telecomunicaciones", "ciudad": "Valparaíso" },
+  { "id": "emp-06", "nombre": "Pago Seguro SpA", "rubro": "Fintech", "ciudad": "Santiago" },
+  { "id": "emp-07", "nombre": "BioSur Agrotech", "rubro": "Agroindustria", "ciudad": "Concepción" },
+  { "id": "emp-08", "nombre": "Quinta Región Software Ltda.", "rubro": "Desarrollo de software", "ciudad": "Viña del Mar" }
 ]

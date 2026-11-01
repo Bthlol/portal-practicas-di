@@ -46,7 +46,7 @@ arreglo de objetos con el formato de esta página.
 - al menos una de ciberseguridad (continuidad con la tarea T1 de la Parte 2);
 - al menos 4 áreas distintas.
 
-## Empresas: `empresas.json` (dueño: Manuel)
+## Empresas: `empresas.json` (dueño: Seba)
 
 | Campo | Tipo | Obligatorio | Notas |
 | --- | --- | --- | --- |

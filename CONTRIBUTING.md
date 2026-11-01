@@ -11,11 +11,15 @@ Todo bajo `src/`. Nadie edita un archivo de otro integrante sin acordarlo.
 | Dueño | Meta | Archivos |
 | --- | --- | --- |
 | Benjamín | M2. Decidir si una oferta le conviene | `components/layout.jsx`, `components/nav_bar.jsx`, `pages/oferta_detalle_page.jsx`, `pages/postular_page.jsx`, `pages/postulaciones_page.jsx`, `state/postulaciones.jsx`, `utils/format.js`, `stylesheets/base/`, `stylesheets/layout/`, `stylesheets/nav-bar/`, `stylesheets/oferta-detalle/`, `stylesheets/postular/`, `stylesheets/postulaciones/`, `stylesheets/index.scss`, `webpack.config.js` |
-| Seba | M1. Encontrar prácticas de su área | `pages/ofertas_page.jsx`, `components/oferta_card.jsx`, `components/filtros.jsx`, `data/ofertas.json`, `stylesheets/ofertas-page/` |
-| Manuel | M3. Saber cómo les fue a compañeros | `components/resumen_resenas.jsx`, `pages/resenas_page.jsx`, `data/empresas.json`, `data/resenas.json`, `stylesheets/resenas/` |
+| Seba | M1. Encontrar prácticas de su área | `pages/ofertas_page.jsx`, `components/oferta_card.jsx`, `components/filtros.jsx`, `data/ofertas.json`, `data/empresas.json`, `stylesheets/ofertas-page/` |
+| Manuel | M3. Saber cómo les fue a compañeros | `components/resumen_resenas.jsx`, `pages/resenas_page.jsx`, `data/resenas.json`, `stylesheets/resenas/` |
 
 Las rutas (`layout.jsx`) y los `@import` de estilos (`index.scss`) quedaron registrados desde el
 primer commit: nadie necesita tocarlos para agregar su trabajo.
+
+`data/empresas.json` pasó a Seba porque cada oferta de M1 necesita su empresa. Las reseñas de M3
+usan los mismos `id` (`emp-01` a `emp-08`), así que para agregar reseñas de una empresa basta con
+usar su `id`. Si M3 necesita una empresa nueva, se le pide a Seba.
 
 ## Puntos de contacto entre pantallas
 
