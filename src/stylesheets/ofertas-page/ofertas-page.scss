@@ -3,6 +3,61 @@
   display: grid;
   grid-template-columns: 260px 1fr;
   gap: $espacio * 3;
+  align-items: start;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+
+  &__titulo { margin: 0 0 $espacio; }
+
+  &__barra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: $espacio;
+    margin-bottom: $espacio * 2;
+  }
+
+  &__contador {
+    margin: 0;
+    color: $color-texto-suave;
+  }
+
+  &__orden {
+    display: flex;
+    align-items: center;
+    gap: $espacio;
+    color: $color-texto-suave;
+    font-size: 0.9rem;
+  }
+
+  &__select {
+    padding: $espacio * 0.5 $espacio;
+    border: 1px solid $color-borde;
+    border-radius: $radio;
+    background: $color-superficie;
+    font-size: 0.9rem;
+  }
+
+  &__vacio {
+    padding: $espacio * 4 $espacio * 3;
+    border: 1px dashed $color-borde;
+    border-radius: $radio;
+    background: $color-superficie;
+    text-align: center;
+
+    p { margin: 0 0 $espacio; }
+  }
+
+  &__vacio-acciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $espacio;
+    margin-top: $espacio * 2;
+  }
 }
 
 .oferta-card {
@@ -91,4 +146,90 @@
   border-radius: $radio;
   background: $color-superficie;
   align-self: start;
+
+  // Queda a la vista mientras se recorre un listado largo.
+  @media (min-width: 801px) {
+    position: sticky;
+    top: $espacio * 2;
+    max-height: calc(100vh - #{$espacio * 4});
+    overflow-y: auto;
+  }
+
+  &__encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: $espacio;
+    margin-bottom: $espacio * 2;
+  }
+
+  &__titulo {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  &__limpiar,
+  &__ver-mas {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  &__ver-mas { margin: -$espacio 0 $espacio * 2; }
+
+  &__subtitulo {
+    display: block;
+    margin-bottom: $espacio;
+    padding: 0;
+    color: $color-texto;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  &__buscar {
+    display: block;
+    margin-bottom: $espacio * 2;
+  }
+
+  &__campo {
+    width: 100%;
+    padding: $espacio;
+    border: 1px solid $color-borde;
+    border-radius: $radio;
+    font-size: 0.95rem;
+
+    &:focus {
+      outline: 2px solid $color-primario;
+      outline-offset: 1px;
+    }
+  }
+
+  &__vigentes {
+    margin-bottom: $espacio * 2;
+    padding-bottom: $espacio * 2;
+    border-bottom: 1px solid $color-borde;
+  }
+
+  &__grupo {
+    margin: 0 0 $espacio * 2;
+    padding: 0;
+    border: none;
+  }
+
+  &__opcion {
+    display: flex;
+    align-items: center;
+    gap: $espacio;
+    padding: 3px 0;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+    input { margin: 0; cursor: pointer; }
+  }
+
+  &__nombre { flex: 1; }
+
+  &__cantidad {
+    color: $color-texto-suave;
+    font-size: 0.85rem;
+  }
 }
