@@ -4,37 +4,290 @@
     "empresaId": "emp-01",
     "titulo": "Práctica en desarrollo backend",
     "tipoPractica": "Industrial",
-    "areas": ["Desarrollo web", "Backend"],
-    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "areas": [
+      "Backend",
+      "Desarrollo web"
+    ],
+    "tecnologias": [
+      "Python",
+      "Django",
+      "PostgreSQL"
+    ],
     "modalidad": "Híbrido",
     "ubicacion": "Viña del Mar",
     "remuneracion": 400000,
     "jornada": "Completa, lunes a viernes",
     "duracionSemanas": 8,
     "fechaPublicacion": "2026-10-10",
-    "fechaCierre": "2026-11-15",
-    "descripcion": "Apoyo al equipo de plataforma en el desarrollo de servicios internos para la gestión de pedidos.",
-    "tareas": ["Desarrollar endpoints REST", "Escribir pruebas unitarias", "Participar en revisiones de código"],
-    "requisitos": ["Conocimientos de Python", "Manejo básico de bases de datos relacionales"],
-    "contacto": "practicas@empresa-ejemplo.cl"
+    "fechaCierre": "2026-11-20",
+    "descripcion": "Te sumarás al equipo de plataforma, que mantiene los servicios internos de gestión de pedidos de la tienda en línea. Trabajarás con un desarrollador senior como tutor y tendrás tickets asignados desde la primera semana.",
+    "tareas": [
+      "Desarrollar endpoints REST para el módulo de despachos",
+      "Escribir pruebas unitarias con pytest",
+      "Participar en revisiones de código y en la daily del equipo"
+    ],
+    "requisitos": [
+      "Conocimientos de Python",
+      "Manejo básico de SQL",
+      "Haber cursado Ingeniería de Software"
+    ],
+    "contacto": "practicas@lumenretail.cl"
   },
   {
     "id": "of-02",
     "empresaId": "emp-02",
     "titulo": "Práctica en ciberseguridad",
     "tipoPractica": "Profesional",
-    "areas": ["Ciberseguridad"],
-    "tecnologias": ["Linux", "Wireshark", "Python"],
+    "areas": [
+      "Ciberseguridad"
+    ],
+    "tecnologias": [
+      "Linux",
+      "Wireshark",
+      "Python"
+    ],
     "modalidad": "Presencial",
     "ubicacion": "Santiago",
     "remuneracion": null,
     "jornada": "Completa, lunes a viernes",
     "duracionSemanas": 12,
-    "fechaPublicacion": "2026-10-20",
+    "fechaPublicacion": "2026-10-01",
     "fechaCierre": "2026-10-30",
-    "descripcion": "Apoyo al equipo de seguridad en el monitoreo de incidentes y la revisión de configuraciones.",
-    "tareas": ["Revisar alertas del SOC", "Documentar incidentes", "Apoyar auditorías de configuración"],
-    "requisitos": ["Haber cursado Redes de Computadores"],
-    "contacto": "seguridad@empresa-ejemplo.cl"
+    "descripcion": "Apoyo al centro de operaciones de seguridad (SOC) en el monitoreo de incidentes de clientes del rubro financiero y en la revisión de configuraciones de servidores.",
+    "tareas": [
+      "Revisar y clasificar alertas del SOC",
+      "Documentar incidentes en la base de conocimiento",
+      "Apoyar auditorías de configuración en servidores Linux"
+    ],
+    "requisitos": [
+      "Haber cursado Redes de Computadores",
+      "Conocimientos básicos de Linux"
+    ],
+    "contacto": "seguridad@escudoti.cl"
+  },
+  {
+    "id": "of-03",
+    "empresaId": "emp-03",
+    "titulo": "Práctica en análisis de datos",
+    "tipoPractica": "Industrial",
+    "areas": [
+      "Ciencia de datos"
+    ],
+    "tecnologias": [
+      "Python",
+      "SQL",
+      "Power BI"
+    ],
+    "modalidad": "Remoto",
+    "ubicacion": "Santiago",
+    "remuneracion": 450000,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 8,
+    "fechaPublicacion": "2026-10-20",
+    "fechaCierre": "2026-11-04",
+    "descripcion": "Consultora que construye reportes y modelos de demanda para empresas de retail. Participarás en un proyecto real de un cliente, desde la limpieza de datos hasta el tablero final.",
+    "tareas": [
+      "Limpiar y unir bases de ventas con Python (pandas)",
+      "Construir consultas SQL para los reportes semanales",
+      "Armar un tablero en Power BI y presentarlo al cliente"
+    ],
+    "requisitos": [
+      "Haber cursado Bases de Datos",
+      "Conocimientos de Python",
+      "Deseable: Estadística Computacional"
+    ],
+    "contacto": "talento@andesanalitica.cl"
+  },
+  {
+    "id": "of-04",
+    "empresaId": "emp-04",
+    "titulo": "Práctica de desarrollo full stack",
+    "tipoPractica": "Profesional",
+    "areas": [
+      "Desarrollo web",
+      "Backend"
+    ],
+    "tecnologias": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "modalidad": "Híbrido",
+    "ubicacion": "Santiago",
+    "remuneracion": null,
+    "jornada": "Completa, 3 días presencial y 2 remotos",
+    "duracionSemanas": 12,
+    "fechaPublicacion": "2026-10-15",
+    "fechaCierre": "2026-11-28",
+    "descripcion": "El área de TI desarrolla la plataforma de seguimiento de contenedores que usan clientes y operadores del puerto. Buscamos a alguien que trabaje tanto en la interfaz como en los servicios.",
+    "tareas": [
+      "Implementar pantallas en React para el seguimiento de cargas",
+      "Desarrollar servicios en Node.js conectados a PostgreSQL",
+      "Corregir errores reportados por los operadores"
+    ],
+    "requisitos": [
+      "Haber cursado Ingeniería de Software",
+      "Experiencia con JavaScript"
+    ],
+    "contacto": "ti.practicas@puertologistica.cl"
+  },
+  {
+    "id": "of-05",
+    "empresaId": "emp-05",
+    "titulo": "Práctica en infraestructura y redes",
+    "tipoPractica": "Industrial",
+    "areas": [
+      "Infraestructura y redes"
+    ],
+    "tecnologias": [
+      "Linux",
+      "Docker",
+      "Cisco IOS"
+    ],
+    "modalidad": "Presencial",
+    "ubicacion": "Valparaíso",
+    "remuneracion": 350000,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 8,
+    "fechaPublicacion": "2026-10-22",
+    "fechaCierre": "2026-12-05",
+    "descripcion": "Empresa regional de telecomunicaciones que da internet a hogares y pymes de la Quinta Región. Apoyarás al equipo de operaciones en la mantención de la red y de los servidores internos.",
+    "tareas": [
+      "Configurar equipos de red en el laboratorio antes de su instalación",
+      "Monitorear el estado de los servidores internos",
+      "Documentar procedimientos de respaldo"
+    ],
+    "requisitos": [
+      "Haber cursado Redes de Computadores"
+    ],
+    "contacto": "operaciones@redcostera.cl"
+  },
+  {
+    "id": "of-06",
+    "empresaId": "emp-06",
+    "titulo": "Práctica en seguridad de aplicaciones",
+    "tipoPractica": "Profesional",
+    "areas": [
+      "Ciberseguridad",
+      "Desarrollo web"
+    ],
+    "tecnologias": [
+      "OWASP ZAP",
+      "Burp Suite",
+      "JavaScript"
+    ],
+    "modalidad": "Remoto",
+    "ubicacion": "Santiago",
+    "remuneracion": 500000,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 12,
+    "fechaPublicacion": "2026-10-18",
+    "fechaCierre": "2026-11-25",
+    "descripcion": "Fintech de pagos en línea. El equipo de seguridad revisa cada versión de la aplicación web antes de pasar a producción, y buscamos a alguien que apoye esas revisiones.",
+    "tareas": [
+      "Ejecutar escaneos de vulnerabilidades sobre el ambiente de pruebas",
+      "Reportar hallazgos con su nivel de riesgo y cómo reproducirlos",
+      "Apoyar a los desarrolladores en la corrección"
+    ],
+    "requisitos": [
+      "Conocimientos de desarrollo web",
+      "Interés en seguridad informática"
+    ],
+    "contacto": "seguridad@pagoseguro.cl"
+  },
+  {
+    "id": "of-07",
+    "empresaId": "emp-07",
+    "titulo": "Práctica en desarrollo móvil",
+    "tipoPractica": "Industrial",
+    "areas": [
+      "Desarrollo móvil"
+    ],
+    "tecnologias": [
+      "Flutter",
+      "Firebase"
+    ],
+    "modalidad": "Híbrido",
+    "ubicacion": "Concepción",
+    "remuneracion": 380000,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 8,
+    "fechaPublicacion": "2026-10-25",
+    "fechaCierre": "2026-12-10",
+    "descripcion": "Startup agrícola que desarrolla una aplicación para registrar el riego y las cosechas en terreno. Trabajarás junto al único desarrollador móvil del equipo.",
+    "tareas": [
+      "Desarrollar nuevas pantallas de la aplicación en Flutter",
+      "Integrar el registro sin conexión con Firebase",
+      "Probar la aplicación con usuarios en terreno"
+    ],
+    "requisitos": [
+      "Conocimientos de programación orientada a objetos"
+    ],
+    "contacto": "equipo@biosur.cl"
+  },
+  {
+    "id": "of-08",
+    "empresaId": "emp-03",
+    "titulo": "Práctica en ingeniería de datos",
+    "tipoPractica": "Profesional",
+    "areas": [
+      "Ciencia de datos",
+      "Backend"
+    ],
+    "tecnologias": [
+      "Python",
+      "Airflow",
+      "BigQuery"
+    ],
+    "modalidad": "Híbrido",
+    "ubicacion": "Santiago",
+    "remuneracion": 550000,
+    "jornada": "Completa, lunes a viernes",
+    "duracionSemanas": 12,
+    "fechaPublicacion": "2026-10-12",
+    "fechaCierre": "2026-11-30",
+    "descripcion": "Apoyarás al equipo que mueve los datos de los clientes hacia la nube, para que los analistas trabajen con información actualizada cada día.",
+    "tareas": [
+      "Construir flujos de carga de datos con Airflow",
+      "Escribir validaciones de calidad de datos",
+      "Optimizar consultas en BigQuery"
+    ],
+    "requisitos": [
+      "Haber cursado Bases de Datos",
+      "Conocimientos de Python"
+    ],
+    "contacto": "talento@andesanalitica.cl"
+  },
+  {
+    "id": "of-09",
+    "empresaId": "emp-08",
+    "titulo": "Práctica en QA y automatización de pruebas",
+    "tipoPractica": "Industrial",
+    "areas": [
+      "QA y testing"
+    ],
+    "tecnologias": [
+      "Selenium",
+      "Python",
+      "Jira"
+    ],
+    "modalidad": "Presencial",
+    "ubicacion": "Viña del Mar",
+    "remuneracion": null,
+    "jornada": "Media jornada, mañanas",
+    "duracionSemanas": 10,
+    "fechaPublicacion": "2026-10-21",
+    "fechaCierre": "2026-11-03",
+    "descripcion": "Empresa de software que desarrolla sistemas de gestión para municipalidades. El equipo de calidad prueba cada versión antes de entregarla.",
+    "tareas": [
+      "Diseñar casos de prueba a partir de los requerimientos",
+      "Automatizar pruebas de interfaz con Selenium",
+      "Registrar y dar seguimiento a errores en Jira"
+    ],
+    "requisitos": [
+      "Conocimientos de Python"
+    ],
+    "contacto": "rrhh@quintaregionsoftware.cl"
   }
 ]
