@@ -26,7 +26,33 @@ Los pasos con 📸 son los screenshots sugeridos para el informe.
 
 ## M1. Encontrar prácticas de su área
 
-> Seba: completa esta sección cuando termines tu meta.
+**A. Listado**
+
+1. 📸 Abrir `/ofertas`: el contador dice «8 ofertas vigentes» y la oferta cerrada no aparece. Las
+   tarjetas van ordenadas por cierre más próximo y las que cierran en 3 días o menos muestran el
+   cierre en naranja. **[D]**
+2. Revisar que las ofertas sin monto digan «Remuneración no informada» en naranja. **[D]**
+
+**B. Filtrar**
+
+3. 📸 Marcar «Ciberseguridad» en Área → queda 1 oferta y el contador dice «1 de 8 ofertas vigentes
+   coincide con tus filtros». La URL cambia a `?area=Ciberseguridad`. **[N]**
+4. Marcar además «Presencial» → 📸 mensaje «Ninguna oferta coincide con tus filtros» con el aviso
+   de 1 oferta cerrada que sí coincide.
+5. Pulsar «Mostrar también las cerradas» → aparece la oferta cerrada, atenuada y con «Cerrada» en
+   rojo. La casilla «Solo ofertas vigentes» queda desmarcada. **[C]**
+6. Pulsar «Limpiar filtros» → vuelve el listado completo de vigentes. **[C]**
+7. Escribir «analisis» (sin tilde) en Buscar → aparece «Práctica en análisis de datos».
+8. Pulsar «Ver todas» en Tecnología → se despliega la lista completa. «Ver menos» la recoge, pero
+   una tecnología marcada sigue visible. **[C]**
+9. Elegir «Profesional» en Tipo de práctica y luego «Todas» → el listado cambia en cada caso. **[C]**
+10. Cambiar el orden a «Mayor remuneración» → las ofertas sin monto quedan al final. **[C]**
+
+**C. Llegar a la oferta**
+
+11. Con «Ciencia de datos» marcado, pulsar una tarjeta → abre su ficha (M2). **[N]**
+12. Pulsar «Atrás» en el navegador → los filtros y el orden siguen como estaban. **[N]**
+13. Achicar la ventana a ancho de celular → el panel de filtros queda arriba del listado.
 
 ## M2. Decidir si una oferta le conviene
 

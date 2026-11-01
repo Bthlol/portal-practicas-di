@@ -5,9 +5,11 @@ arreglo de objetos con el formato de esta página.
 
 ## Reglas generales
 
-- **Datos cercanos a casos reales** (lo exige el enunciado). Las ofertas se basan en las que
-  publica el portal real (practicas.inf.utfsm.cl); donde la publicación original no trae un dato,
-  se completa con un valor verosímil o se deja `null` si la ausencia es parte del caso.
+- **Datos cercanos a casos reales** (lo exige el enunciado). El portal real casi no tiene ofertas
+  publicadas (hallazgo D), así que las ofertas se construyeron a partir de las entrevistas: áreas,
+  tecnologías y modalidades que mencionaron los alumnos, remuneraciones habituales de práctica y
+  empresas ficticias pero verosímiles. Cuando la ausencia de un dato es parte del caso, se deja
+  `null`.
 - **Sin datos personales.** Las reseñas no llevan nombres ni roles USM de alumnos; el autor se
   describe por año de carrera (ej. «Alumno/a de 5° año»).
 - **Fechas** en formato ISO `AAAA-MM-DD`.

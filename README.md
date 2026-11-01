@@ -10,7 +10,7 @@ Basado en [alexarenasf/frontend-sample-app](https://github.com/alexarenasf/front
 
 | Meta | Hipótesis | Pantallas | Dueño | Estado |
 | --- | --- | --- | --- | --- |
-| M1. Encontrar prácticas de su área de interés | H4 | `/ofertas` | Seba | En desarrollo |
+| M1. Encontrar prácticas de su área de interés | H4 | `/ofertas` | Seba | Implementada |
 | M2. Decidir si una oferta le conviene antes de postular | H2 | `/ofertas/:id`, `/ofertas/:id/postular`, `/postulaciones` | Benjamín | Implementada |
 | M3. Saber cómo les fue a compañeros en esa empresa | H1 | Resumen en `/ofertas/:id`, `/empresas/:id/resenas` | Manuel | En desarrollo |
 

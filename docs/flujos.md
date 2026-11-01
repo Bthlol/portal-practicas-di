@@ -29,18 +29,31 @@ La barra superior lleva siempre a **Ofertas** y **Mis postulaciones** (con conta
 ## M1. Encontrar prácticas de su área de interés (Seba)
 
 - **Hipótesis:** H4. Filtros por área o conocimientos.
-- **Punto de entrada:** `/ofertas`.
-- **Estado:** pendiente (el listado actual es el esqueleto del primer commit).
+- **Punto de entrada:** `/ofertas` (también es la página de inicio).
+- **Estado:** implementado.
 
-> Seba: reemplaza estos pasos previstos por los definitivos cuando termines.
+1. El alumno entra a Ofertas. Por defecto ve solo las ofertas vigentes, ordenadas por cierre más
+   próximo. Cada tarjeta muestra empresa, título, áreas, hasta tres tecnologías, modalidad,
+   ciudad, tipo de práctica, remuneración y días para el cierre (en naranja si son 3 o menos).
+2. En el panel izquierdo marca su área (ej. Ciberseguridad). Al lado de cada opción ve cuántas
+   ofertas vigentes la tienen, así sabe antes de marcar si va a encontrar algo.
+3. Si quiere acotar más, combina modalidad, tecnología o tipo de práctica, o escribe en «Buscar»
+   (busca en título, empresa, descripción, ciudad, áreas y tecnologías, sin importar tildes).
+4. El contador indica cuántas ofertas coinciden («1 de 8 ofertas vigentes coincide con tus
+   filtros»). Puede cambiar el orden a «Publicadas recientemente» o «Mayor remuneración».
+5. Abre la oferta que le interesa y sigue con M2. Si vuelve con «Atrás» del navegador, sus filtros
+   siguen marcados porque quedan guardados en la URL.
 
-1. El alumno entra a Ofertas y ve todas las ofertas vigentes con área, tecnologías, modalidad,
-   remuneración y fecha de cierre.
-2. Filtra por área (ej. Ciberseguridad), tecnología o modalidad, o busca por texto.
-3. El contador muestra cuántas ofertas coinciden; si ninguna coincide, puede limpiar los filtros.
-4. Abre la oferta que le interesa.
+**Resultado esperado:** el alumno llega a una oferta de su área sin recorrer el listado completo y
+sin perder tiempo en ofertas que ya cerraron.
 
-**Resultado esperado:** el alumno llega a una oferta de su área sin recorrer el listado completo.
+**Estados alternativos:**
+
+- **Ninguna oferta coincide:** mensaje con el botón «Limpiar filtros». Si alguna oferta cerrada sí
+  coincide, lo avisa y ofrece «Mostrar también las cerradas».
+- **Ofertas cerradas:** se ven al desmarcar «Solo ofertas vigentes», al final del listado y con
+  la tarjeta atenuada.
+- **Remuneración no informada:** la tarjeta lo dice en naranja en vez de dejar el espacio vacío.
 
 ---
 
