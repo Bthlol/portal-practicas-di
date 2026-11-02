@@ -1,22 +1,26 @@
 [
-  {
-    "id": "res-01",
-    "empresaId": "emp-01",
-    "autor": "Alumno/a de 5° año",
-    "periodo": "Verano 2026",
-    "area": "Backend",
-    "calificacion": 4,
-    "coincidioConOferta": true,
-    "texto": "Las tareas fueron las que decía la oferta. El equipo tenía tiempo para resolver dudas."
-  },
-  {
-    "id": "res-02",
-    "empresaId": "emp-01",
-    "autor": "Alumno/a de 4° año",
-    "periodo": "Invierno 2025",
-    "area": "Desarrollo web",
-    "calificacion": 3,
-    "coincidioConOferta": false,
-    "texto": "La oferta decía desarrollo, pero las primeras semanas fueron de migración de planillas."
-  }
+  { "id": "res-01", "empresaId": "emp-01", "autor": "Alumno/a de 5° año", "periodo": "Verano 2026", "area": "Backend", "calificacion": 4, "coincidioConOferta": true, "texto": "Trabajé en endpoints REST y pruebas unitarias, tal como decía la oferta. El equipo es pequeño pero te explican las cosas y te dan tareas reales." },
+  { "id": "res-02", "empresaId": "emp-01", "autor": "Alumno/a de 6° año", "periodo": "Invierno 2025", "area": "Desarrollo web", "calificacion": 5, "coincidioConOferta": true, "texto": "Buen ambiente y horarios claros. Participé en el rediseño del carrito de compras y vi todo el ciclo hasta producción." },
+  { "id": "res-03", "empresaId": "emp-01", "autor": "Alumno/a de 5° año", "periodo": "Verano 2025", "area": "Backend", "calificacion": 3, "coincidioConOferta": false, "texto": "La oferta hablaba de backend, pero las primeras semanas hice soporte y carga de datos. Después mejoró, aunque la remuneración llegó con atraso." },
+
+  { "id": "res-04", "empresaId": "emp-02", "autor": "Alumno/a de 5° año", "periodo": "Verano 2026", "area": "Ciberseguridad", "calificacion": 5, "coincidioConOferta": true, "texto": "Hice análisis de vulnerabilidades y apoyé en pruebas de pentesting con supervisión. Aprendí mucho y las tareas eran las publicadas." },
+  { "id": "res-05", "empresaId": "emp-02", "autor": "Alumno/a de 6° año", "periodo": "Invierno 2025", "area": "Ciberseguridad", "calificacion": 4, "coincidioConOferta": true, "texto": "Buena mentoría, aunque la carga de trabajo es alta en semanas de auditoría. Recomendable si te interesa seguridad." },
+  { "id": "res-06", "empresaId": "emp-02", "autor": "Alumno/a de 5° año", "periodo": "Verano 2025", "area": "Redes", "calificacion": 3, "coincidioConOferta": false, "texto": "Me ofrecieron seguridad, pero terminé configurando equipos y redes internas. Útil, aunque distinto a lo publicado." },
+
+  { "id": "res-07", "empresaId": "emp-03", "autor": "Alumno/a de 5° año", "periodo": "Verano 2026", "area": "Ciencia de datos", "calificacion": 5, "coincidioConOferta": true, "texto": "Armé dashboards y modelos simples de predicción de demanda para clientes reales. Mucha autonomía y buen acompañamiento." },
+  { "id": "res-08", "empresaId": "emp-03", "autor": "Alumno/a de 6° año", "periodo": "Invierno 2024", "area": "Ciencia de datos", "calificacion": 4, "coincidioConOferta": true, "texto": "Proyectos interesantes. A veces los plazos de los clientes son ajustados, pero el equipo te respalda." },
+
+  { "id": "res-09", "empresaId": "emp-04", "autor": "Alumno/a de 5° año", "periodo": "Verano 2026", "area": "Desarrollo web", "calificacion": 2, "coincidioConOferta": false, "texto": "La oferta decía desarrollo web, pero casi todo fue mantener planillas y reportes manuales. Hay poca guía técnica." },
+  { "id": "res-10", "empresaId": "emp-04", "autor": "Alumno/a de 6° año", "periodo": "Invierno 2025", "area": "Sistemas de información", "calificacion": 3, "coincidioConOferta": false, "texto": "Las tareas cambiaron respecto de lo publicado y tuve que pedir que me asignaran algo de desarrollo. Buena gente, pero desordenados." },
+  { "id": "res-11", "empresaId": "emp-04", "autor": "Alumno/a de 5° año", "periodo": "Verano 2025", "area": "Sistemas de información", "calificacion": 4, "coincidioConOferta": true, "texto": "Trabajé en el seguimiento de despachos con una base de datos real. Me tocó un buen supervisor, aunque no siempre ocurre." },
+
+  { "id": "res-12", "empresaId": "emp-05", "autor": "Alumno/a de 5° año", "periodo": "Verano 2026", "area": "Redes", "calificacion": 4, "coincidioConOferta": true, "texto": "Monitoreo de red y automatización de tareas con scripts. Es presencial y a veces hay turnos largos, pero se aprende bastante." },
+  { "id": "res-13", "empresaId": "emp-05", "autor": "Alumno/a de 6° año", "periodo": "Invierno 2025", "area": "Redes", "calificacion": 3, "coincidioConOferta": true, "texto": "Lo publicado coincidió con lo que hice. Falta algo de documentación para quienes recién entran." },
+
+  { "id": "res-14", "empresaId": "emp-06", "autor": "Alumno/a de 5° año", "periodo": "Verano 2026", "area": "Backend", "calificacion": 5, "coincidioConOferta": true, "texto": "Revisión de código, pruebas de integración y trabajo con APIs de pagos. Muy buen nivel técnico y feedback constante." },
+  { "id": "res-15", "empresaId": "emp-06", "autor": "Alumno/a de 6° año", "periodo": "Invierno 2025", "area": "Ciberseguridad", "calificacion": 4, "coincidioConOferta": true, "texto": "Apoyé en cumplimiento y revisión de accesos. Interesante, aunque con harto trabajo documental." },
+  { "id": "res-16", "empresaId": "emp-06", "autor": "Alumno/a de 5° año", "periodo": "Verano 2025", "area": "Backend", "calificacion": 4, "coincidioConOferta": false, "texto": "Terminé más en pruebas que en desarrollo, a diferencia de lo publicado. De todos modos la experiencia valió la pena." },
+
+  { "id": "res-17", "empresaId": "emp-07", "autor": "Alumno/a de 6° año", "periodo": "Verano 2026", "area": "Ciencia de datos", "calificacion": 3, "coincidioConOferta": true, "texto": "Análisis de datos de sensores de cultivo. Trabajo en terreno parte de la semana y la conectividad no siempre es buena." },
+  { "id": "res-18", "empresaId": "emp-07", "autor": "Alumno/a de 5° año", "periodo": "Invierno 2024", "area": "Desarrollo web", "calificacion": 2, "coincidioConOferta": false, "texto": "Ofrecían una plataforma web, pero el proyecto estaba detenido y me asignaron tareas administrativas." }
 ]
